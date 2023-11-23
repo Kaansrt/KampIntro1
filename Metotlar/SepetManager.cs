@@ -23,4 +23,4 @@ namespace Metotlar
 //bir classın içerisinde birden fazla metot olabilir.
 //methodun imzası
 //bi yerde nomral parantez görürsek orada method çalışıyor demektir.
-//bir operasyon tutuyor.
+//bir operasyon tutuyor, yani method kullanıyor

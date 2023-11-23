@@ -12,18 +12,18 @@
             kurs1.Egitmen = "Kaan Sert";
             kurs1.IzlenmeOrani = 68;
 
-            Kurs kurs2 = new Kurs(); 
+            Kurs kurs2 = new Kurs();
             kurs2.KursAdi = "Java";
             kurs2.Egitmen = "Esma Sert";
             kurs2.IzlenmeOrani = 64;
-            
-            Kurs kurs3 = new Kurs(); 
+
+            Kurs kurs3 = new Kurs();
             kurs3.KursAdi = "Python";
             kurs3.Egitmen = "Emirhan Bayır";
             kurs3.IzlenmeOrani = 80;
 
             //Console.WriteLine(kurs1.KursAdi+" : " +kurs1.Egitmen); 
-            Kurs[] kurslar = new Kurs[] { kurs1,kurs2,kurs3 }; //içinde kurs veri tipini (nesnesini) barındıran bir array tanımladık.
+            Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3 }; //içinde kurs veri tipini (nesnesini) barındıran bir array tanımladık.
 
             foreach (Kurs kurs in kurslar)
             {
@@ -34,8 +34,9 @@
 
     class Kurs
     {
+        //field 
         public string KursAdi { get; set; }
         public string Egitmen { get; set; }
-        public int IzlenmeOrani  { get; set; }
+        public int IzlenmeOrani { get; set; }
     }
 }

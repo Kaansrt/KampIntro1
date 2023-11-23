@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Metotlar
 {
     class Urun
+        //field public string FirstName;
     {   //property - özellik
         public int Id { get; set; }     //Id bir datayı ayırt etmek için eşsiz olan nesnedir, tc gibi
         public string Adi { get; set; }

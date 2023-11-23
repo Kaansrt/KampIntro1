@@ -49,7 +49,7 @@
 }
 
 //tekrar tekrar kullanılabilirliği sağlar.Don't repeat yourself. DRY - Celan code  - Best Practice
-//classlar özellik tutar
+//classları 2 ye ayırdık özellik tutan ve operasyon (method) tutan
 
 
 /*  new için : İlk olarak bilgisayarın belleğinde random classına dayanan yeni nesneyi depolamaya yetecek büyüklükte bir adres ister .
